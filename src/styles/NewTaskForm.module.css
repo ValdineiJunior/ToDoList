@@ -1,12 +1,14 @@
-.NewTaskForm {
+.container {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 0.5rem;
-  gap: 0.25rem;
-  width: 40rem;
-  height: 3.4rem ;
+}
 
+.input {
+
+  padding: 16px;
+  width: 51vw;
+  height: 3.4rem;
   background: #262626;
   border: 1px solid #0D0D0D;
   border-radius: 8px;
